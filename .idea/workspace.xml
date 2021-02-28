@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a309eb10-3053-4581-8c48-7e733eb03bcd" name="Default" comment="" />
+    <list default="true" id="636791f9-c92d-4b6b-b9ea-aa4df8ca85f1" name="Default" comment="" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,10 +96,10 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <created>1614311468567</created>
+      <created>1614520306990</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1614311468567</updated>
+      <updated>1614520306990</updated>
     </task>
     <servers />
   </component>
@@ -109,5 +109,21 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

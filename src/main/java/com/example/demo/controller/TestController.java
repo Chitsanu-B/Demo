@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@RequestMapping("/")
 public class TestController {
     @Autowired
     VocabularyTypeRepository vocabularyTypeRepository;
@@ -32,6 +33,12 @@ public class TestController {
     public ResponseEntity<String> test002(){
         return new ResponseEntity<>(new JSONSerializer().exclude("*.class").serialize(vocabularyTypeRepository.findAll()), HttpStatus.OK);
     }
+
+    @DeleteMapping("/delete/{id}")
+    public void delete(@PathVariable("id") Long id){
+        vocabularyTypeRepository.deleteById(id);
+    }
+
 
 
 }
