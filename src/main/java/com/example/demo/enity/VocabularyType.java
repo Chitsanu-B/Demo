@@ -3,6 +3,8 @@ package com.example.demo.enity;
 import lombok.Data;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.util.Date;
 
@@ -11,20 +13,10 @@ import java.util.Date;
 public class VocabularyType {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
     private Long version;
-
-    private String createdBy;
-
-
-    private Date createdDate;
-
-    private String updatedBy;
-
-
-    private Date updatedDate;
 
     private String shortType;
 
